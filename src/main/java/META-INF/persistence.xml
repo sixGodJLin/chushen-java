@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>com.example.bean.Item</class>
+        <class>com.example.bean.Type</class>
+        <class>com.example.bean.Address</class>
+        <class>com.example.bean.Cart</class>
+        <class>com.example.bean.Menu</class>
+        <class>com.example.bean.Order</class>
+        <class>com.example.bean.OrderItem</class>
+        <class>com.example.bean.Shop</class>
+        <class>com.example.bean.User</class>
+        <class>com.example.bean.Discover</class>
+        <class>com.example.bean.DayRecommend</class>
+        <class>com.example.bean.ItemComment</class>
+        <class>com.example.bean.ItemCollection</class>
+        <class>com.example.bean.MenuCollection</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/chushen"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

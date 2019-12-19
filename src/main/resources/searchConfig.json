@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "search": [{
+    "table": "user",
+    "columns": [
+      {"name": "nickname"},
+      {"name": "username"},
+      {"name": "tel"},
+      {"name": "enable", "type": "boolean"}
+    ]
+  }, {
+    "table": "item",
+    "columns": [
+      {"name": "name"},
+      {"name": "price", "type": "double"},
+      {"name": "type.id", "type": "int"},
+      {"name": "shop.id", "type": "int"}
+    ]
+  }, {
+    "table": "shop",
+    "columns": [
+      {"name": "name"}
+    ]
+  }, {
+    "table": "type",
+    "columns": [
+      {"name": "name"}
+    ]
+  },{
+    "table": "menu",
+    "columns": [
+      {"name": "type"},
+      {"name": "menuName"},
+      {"name": "mainStuff"},
+      {"name": "score"},
+      {"name": "assistStuff"},
+      {"name": "method"}
+    ]
+  },{
+    "table": "discover",
+    "columns": [
+      {"name": "user.username"},
+      {"name": "content"}
+    ]
+  }]
+}
